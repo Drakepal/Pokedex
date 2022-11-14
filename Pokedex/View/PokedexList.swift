@@ -29,6 +29,6 @@ struct PokedexList: View {
 
 struct PokedexList_Previews: PreviewProvider {
     static var previews: some View {
-        PokedexList()
+        PokedexList().preferredColorScheme(.dark)
     }
 }

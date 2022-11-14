@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		7202956B2922C1BD00CCB54F /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 7202956A2922C1BD00CCB54F /* Kingfisher */; };
+		7202956D2922D82F00CCB54F /* PokemonDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7202956C2922D82F00CCB54F /* PokemonDetails.swift */; };
 		7206E69E291C2DED0097F2E3 /* PokedexApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7206E69D291C2DED0097F2E3 /* PokedexApp.swift */; };
 		7206E6A0291C2DED0097F2E3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7206E69F291C2DED0097F2E3 /* ContentView.swift */; };
 		7206E6A2291C2DF00097F2E3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7206E6A1291C2DF00097F2E3 /* Assets.xcassets */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7202956C2922D82F00CCB54F /* PokemonDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonDetails.swift; sourceTree = "<group>"; };
 		7206E69A291C2DED0097F2E3 /* Pokedex.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pokedex.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7206E69D291C2DED0097F2E3 /* PokedexApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokedexApp.swift; sourceTree = "<group>"; };
 		7206E69F291C2DED0097F2E3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -93,6 +95,7 @@
 			children = (
 				72913DC2291C32BD0093ADF4 /* PokemonCard.swift */,
 				72913DC4291C387A0093ADF4 /* PokedexList.swift */,
+				7202956C2922D82F00CCB54F /* PokemonDetails.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -181,6 +184,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7202956D2922D82F00CCB54F /* PokemonDetails.swift in Sources */,
 				72913DC5291C387A0093ADF4 /* PokedexList.swift in Sources */,
 				7206E6A0291C2DED0097F2E3 /* ContentView.swift in Sources */,
 				72913DC9291C455A0093ADF4 /* PokemonViewModel.swift in Sources */,

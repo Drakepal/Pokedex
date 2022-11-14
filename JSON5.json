@@ -43,7 +43,7 @@
     "imageUrl": "https://firebasestorage.googleapis.com/v0/b/pokedex-83c1e.appspot.com/o/Pokedex%20Images%2F4.png?alt=media&token=e60eff0e-e718-4b43-adb7-b479db1a2dbd",
     "name": "charmander",
     "type": "fire",
-    "typeTwo": "",
+    "typeTwo": "fire",
     "weight": 85
   },
   {
@@ -55,7 +55,7 @@
     "imageUrl": "https://firebasestorage.googleapis.com/v0/b/pokedex-83c1e.appspot.com/o/Pokedex%20Images%2F5.png?alt=media&token=ea18f89e-6086-480f-97f1-776c4b19b7f2",
     "name": "charmeleon",
     "type": "fire",
-    "typeTwo": "",
+    "typeTwo": "fire",
     "weight": 190
   },
   {

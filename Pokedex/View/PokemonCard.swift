@@ -32,7 +32,7 @@ struct PokemonCard: View {
                 
                 HStack {
                     if pokemonData.type != pokemonData.typeTwo {
-                        Text("\(pokemonData.type)\n\(pokemonData.typeTwo)" .uppercased())
+                        Text("\(pokemonData.type) \n \(pokemonData.typeTwo)" .uppercased())
                             .font(.caption)
                             .fontWeight(.bold)
                             .foregroundColor(.white)
