@@ -1,0 +1,73 @@
+[ null, {
+    "attack": 49,
+    "defense": 49,
+    "description": "Bulbasaur can be seen napping in bright sunlight. There is a seed on its back. By soaking up the sun’s rays, the seed grows progressively larger.",
+    "height": 7,
+    "id": 1,
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/pokedexpm.appspot.com/o/Pokedex%20Images%2F1.png?alt=media&token=22a8a3a5-a3d1-42a4-915a-6b35ee9c5a73",
+    "name": "bulbasaur",
+    "type": "grass",
+    "typeTwo": "poison",
+    "weight": 69
+  },
+  {
+    "attack": 62,
+    "defense": 63,
+    "description": "There is a bud on this Pokémon’s back. To support its weight, Ivysaur’s legs and trunk grow thick and strong. If it starts spending more time lying in the sunlight, it’s a sign that the bud will bloom into a large flower soon.",
+    "height": 10,
+    "id": 2,
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/pokedex-83c1e.appspot.com/o/Pokedex%20Images%2F2.png?alt=media&token=c99e8973-d6c8-4809-b57e-1a92ead0dfe2",
+    "name": "ivysaur",
+    "type": "grass",
+    "typeTwo": "poison",
+    "weight": 130
+  },
+  {
+    "attack": 82,
+    "defense": 83,
+    "description": "There is a large flower on Venusaur’s back. The flower is said to take on vivid colors if it gets plenty of nutrition and sunlight. The flower’s aroma soothes the emotions of people.",
+    "height": 20,
+    "id": 3,
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/pokedex-83c1e.appspot.com/o/Pokedex%20Images%2F3.png?alt=media&token=6e6bbbb0-8d77-48a4-aa55-475f17875ad6",
+    "name": "venusaur",
+    "type": "grass",
+    "typeTwo": "poison",
+    "weight": 1000
+  },
+  {
+    "attack": 52,
+    "defense": 43,
+    "description": "The flame that burns at the tip of its tail is an indication of its emotions. The flame wavers when Charmander is enjoying itself. If the Pokémon becomes enraged, the flame burns fiercely.",
+    "height": 6,
+    "id": 4,
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/pokedex-83c1e.appspot.com/o/Pokedex%20Images%2F4.png?alt=media&token=e60eff0e-e718-4b43-adb7-b479db1a2dbd",
+    "name": "charmander",
+    "type": "fire",
+    "typeTwo": "",
+    "weight": 85
+  },
+  {
+    "attack": 64,
+    "defense": 58,
+    "description": "Charmeleon mercilessly destroys its foes using its sharp claws. If it encounters a strong foe, it turns aggressive. In this excited state, the flame at the tip of its tail flares with a bluish white color.",
+    "height": 11,
+    "id": 5,
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/pokedex-83c1e.appspot.com/o/Pokedex%20Images%2F5.png?alt=media&token=ea18f89e-6086-480f-97f1-776c4b19b7f2",
+    "name": "charmeleon",
+    "type": "fire",
+    "typeTwo": "",
+    "weight": 190
+  },
+  {
+    "attack": 84,
+    "defense": 78,
+    "description": "Charizard flies around the sky in search of powerful opponents. It breathes fire of such great heat that it melts anything. However, it never turns its fiery breath on any opponent weaker than itself.",
+    "height": 17,
+    "id": 6,
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/pokedex-83c1e.appspot.com/o/Pokedex%20Images%2F6.png?alt=media&token=a4166bf6-2402-4c9d-b428-e1b00de8d49b",
+    "name": "charizard",
+    "type": "fire",
+    "typeTwo": "flying",
+    "weight": 905
+  }
+]
