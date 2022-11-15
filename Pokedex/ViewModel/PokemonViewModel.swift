@@ -10,7 +10,7 @@ import SwiftUI
 class PokemonViewModel: ObservableObject {
     @Published var pokemon = [PokemonData]()
     
-    let apiURL = "https://firebasestorage.googleapis.com/v0/b/pokedex-83c1e.appspot.com/o/JSON12.json?alt=media&token=cfff3482-f504-4676-b08f-4586aa166877"
+    let apiURL = "https://firebasestorage.googleapis.com/v0/b/pokedex-83c1e.appspot.com/o/JSON14.json?alt=media&token=61d220c5-ccea-462f-9aab-d83a3f7d6997"
     
     init() {
         fetchPokemonData()
@@ -50,7 +50,7 @@ class PokemonViewModel: ObservableObject {
         case "bug": return .systemGreen
         case "flying": return UIColor(Color("lightBlue"))
         case "rock": return UIColor(Color("darkTan"))
-        case "fighting": return .systemBrown
+        case "fighting": return UIColor(Color("darkRed"))
         case "steel": return UIColor(Color("silver"))
         case "ghost": return UIColor(Color("darkPurple"))
         case "dragon": return UIColor(Color("salmon"))
