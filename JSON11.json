@@ -1,4 +1,5 @@
-[ null, {
+[ null,
+  {
     "attack": 49,
     "defense": 49,
     "description": "Bulbasaur can be seen napping in bright sunlight. There is a seed on its back. By soaking up the sun’s rays, the seed grows progressively larger.",
@@ -246,8 +247,8 @@
     "id": 21,
     "imageUrl": "https://firebasestorage.googleapis.com/v0/b/pokedex-83c1e.appspot.com/o/Pokedex%20Images%2F21.png?alt=media&token=0a0c823e-1648-43c1-9ebf-212f17673ca3",
     "name": "spearow",
-    "type": "normal",
-    "typeTwo": "flying",
+    "type": "flying",
+    "typeTwo": "normal",
     "weight": 20
   },
   {
@@ -258,8 +259,8 @@
     "id": 22,
     "imageUrl": "https://firebasestorage.googleapis.com/v0/b/pokedex-83c1e.appspot.com/o/Pokedex%20Images%2F22.png?alt=media&token=b90ec932-0dcf-4a45-8990-ac07c08cad65",
     "name": "fearow",
-    "type": "normal",
-    "typeTwo": "flying",
+    "type": "flying",
+    "typeTwo": "normal",
     "weight": 380
   },
   {
@@ -309,5 +310,125 @@
     "type": "electric",
     "typeTwo": "electric",
     "weight": 300
+  },
+  {
+    "attack": 75,
+    "defense": 85,
+    "description": "Burrows deep underground in arid locations\ffar from water. It only emerges to hunt for food.",
+    "height": 6,
+    "id": 27,
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/pokedex-83c1e.appspot.com/o/Pokedex%20Images%2F27.png?alt=media&token=4440dc5c-ae0f-43c6-b87b-7974101d4586",
+    "name": "sandshrew",
+    "type": "ground",
+    "typeTwo": "ground",
+    "weight": 120
+  },
+  {
+    "attack": 100,
+    "defense": 110,
+    "description": "Curls up into a spiny ball when threatened. It\fcan roll while curled up to attack or escape.",
+    "height": 10,
+    "id": 28,
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/pokedex-83c1e.appspot.com/o/Pokedex%20Images%2F28.png?alt=media&token=d13f5e8d-ec82-4415-8bf6-782a4ecb1f76",
+    "name": "sandslash",
+    "type": "ground",
+    "typeTwo": "ground",
+    "weight": 295
+  },
+  {
+    "attack": 47,
+    "defense": 52,
+    "description": "Although small, its venomous barbs render this\fPOKéMON dangerous. The female has smaller horns.",
+    "height": 4,
+    "id": 29,
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/pokedex-83c1e.appspot.com/o/Pokedex%20Images%2F29.png?alt=media&token=e2f21ba5-f386-41ec-928a-20ee5db74cbe",
+    "name": "nidoran-f",
+    "type": "poison",
+    "typeTwo": "poison",
+    "weight": 70
+  },
+  {
+    "attack": 62,
+    "defense": 67,
+    "description": "The female's horn develops slowly. Prefers physical\fattacks such as clawing and biting.",
+    "height": 8,
+    "id": 30,
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/pokedex-83c1e.appspot.com/o/Pokedex%20Images%2F30.png?alt=media&token=a0729725-7b86-4106-9497-b9b0d70d7c12",
+    "name": "nidorina",
+    "type": "poison",
+    "typeTwo": "poison",
+    "weight": 200
+  },
+  {
+    "attack": 92,
+    "defense": 87,
+    "description": "Its hard scales provide strong protection. It\fuses its hefty bulk to execute powerful moves.",
+    "height": 13,
+    "id": 31,
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/pokedex-83c1e.appspot.com/o/Pokedex%20Images%2F31.png?alt=media&token=0c68e82a-6c56-4f65-a7bb-06d19c35907d",
+    "name": "nidoqueen",
+    "type": "poison",
+    "typeTwo": "ground",
+    "weight": 600
+  },
+  {
+    "attack": 57,
+    "defense": 40,
+    "description": "Stiffens its ears to sense danger. The larger its\fhorns, the more powerful its secreted venom.",
+    "height": 5,
+    "id": 32,
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/pokedex-83c1e.appspot.com/o/Pokedex%20Images%2F32.png?alt=media&token=42220f64-2f5b-4de0-9676-876557189df5",
+    "name": "nidoran-m",
+    "type": "poison",
+    "typeTwo": "poison",
+    "weight": 90
+  },
+  {
+    "attack": 72,
+    "defense": 57,
+    "description": "An aggressive POKéMON that is quick to attack.\fThe horn on its head secretes a powerful venom.",
+    "height": 9,
+    "id": 33,
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/pokedex-83c1e.appspot.com/o/Pokedex%20Images%2F33.png?alt=media&token=fc72fff6-a4e4-40c8-a583-73a93a3e3404",
+    "name": "nidorino",
+    "type": "poison",
+    "typeTwo": "poison",
+    "weight": 195
+  },
+  {
+    "attack": 102,
+    "defense": 77,
+    "description": "It uses its powerful tail in battle to smash,\fconstrict, then break the prey's bones.",
+    "height": 14,
+    "id": 34,
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/pokedex-83c1e.appspot.com/o/Pokedex%20Images%2F34.png?alt=media&token=91968750-a5ca-47f9-9c39-fe7f4f1f04ce",
+    "name": "nidoking",
+    "type": "poison",
+    "typeTwo": "ground",
+    "weight": 620
+  },
+  {
+    "attack": 45,
+    "defense": 48,
+    "description": "Its magical and cute appeal has many admirers.\fIt is rare and found only in certain areas.",
+    "height": 6,
+    "id": 35,
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/pokedex-83c1e.appspot.com/o/Pokedex%20Images%2F35.png?alt=media&token=9d621f96-fb53-41cf-a3b1-e64bd383549a",
+    "name": "clefairy",
+    "type": "fairy",
+    "typeTwo": "fairy",
+    "weight": 75
+  },
+  {
+    "attack": 70,
+    "defense": 73,
+    "description": "A timid fairy POKéMON that is rarely seen. It\fwill run and hide the moment it senses people.",
+    "height": 13,
+    "id": 36,
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/pokedex-83c1e.appspot.com/o/Pokedex%20Images%2F36.png?alt=media&token=9228f039-ba14-4690-b45a-fa85ee2d9fc6",
+    "name": "clefable",
+    "type": "fairy",
+    "typeTwo": "fairy",
+    "weight": 400
   }
 ]
