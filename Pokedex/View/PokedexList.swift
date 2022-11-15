@@ -18,17 +18,21 @@ struct PokedexList: View {
             ScrollView {
                 LazyVGrid(columns: gridItems, spacing: 20) {
                     ForEach(viewModel.pokemon) { pokemon in
-                        PokemonCard(pokemonData: pokemon, pokemonViewModel: viewModel)
+                        NavigationLink(destination: PokemonDetails(pokemonData: pokemon, pokemonViewModel: viewModel)) {
+                            PokemonCard(pokemonData: pokemon, pokemonViewModel: viewModel)
+                                
+                        }
                     }
                 }
             }
             .navigationTitle("POKÉDEX")
-        }
+            
+        }.accentColor(.black)
     }
 }
 
 struct PokedexList_Previews: PreviewProvider {
     static var previews: some View {
-        PokedexList().preferredColorScheme(.dark)
+        PokedexList()
     }
 }

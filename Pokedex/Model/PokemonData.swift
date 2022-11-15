@@ -13,11 +13,11 @@ struct PokemonData: Decodable, Identifiable {
     let name: String
     let imageUrl: String
     let type: String
-    let weight: Int
-    let height: Int
+    let weight: Float
+    let height: Float
     let description: String
-    let attack: Int
-    let defense: Int
+    let attack: Float
+    let defense: Float
     let typeTwo: String
 }
 
