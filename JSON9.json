@@ -231,7 +231,7 @@
     "defense": 60,
     "description": "It uses its whis­ kers to maintain its balance.\fIt apparently slows down if they are cut off.",
     "height": 7,
-    "id": 10,
+    "id": 20,
     "imageUrl": "https://firebasestorage.googleapis.com/v0/b/pokedex-83c1e.appspot.com/o/Pokedex%20Images%2F20.png?alt=media&token=6981c583-2326-4721-973c-dc4b660b4142",
     "name": "raticate",
     "type": "normal",
