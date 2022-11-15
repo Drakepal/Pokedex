@@ -13,11 +13,13 @@ struct PokemonCard: View {
     let pokemonData: PokemonData
     let pokemonViewModel: PokemonViewModel
     let backgroundColor: Color
+    let backgroundColorTwo: Color
     
     init(pokemonData: PokemonData, pokemonViewModel: PokemonViewModel) {
         self.pokemonData = pokemonData
         self.pokemonViewModel = pokemonViewModel
         self.backgroundColor = Color(pokemonViewModel.detectBackgroundColor(forType: pokemonData.type))
+        self.backgroundColorTwo = Color(pokemonViewModel.detectBackgroundColor(forType: pokemonData.typeTwo))
     }
     
     var body: some View {
@@ -32,17 +34,31 @@ struct PokemonCard: View {
                 
                 HStack {
                     if pokemonData.type != pokemonData.typeTwo {
-                        Text("\(pokemonData.type) \n \(pokemonData.typeTwo)" .uppercased())
-                            .font(.caption)
-                            .fontWeight(.bold)
-                            .foregroundColor(.white)
-                            .padding(.horizontal, 10)
-                            .padding(.vertical, 8)
-                            .overlay(
-                                RoundedRectangle(cornerRadius: 12)
-                                    .fill(Color.white.opacity(0.25))
-                            )
-                            .frame(width: 100, height: 25)
+                        VStack {
+                            Text("\(pokemonData.type)" .uppercased())
+                                .font(.caption)
+                                .fontWeight(.bold)
+                                .foregroundColor(.white)
+                                .padding(.horizontal, 10)
+                                .padding(.vertical, 8)
+                                .overlay(
+                                    RoundedRectangle(cornerRadius: 12)
+                                        .fill(Color.white.opacity(0.25))
+                                )
+                                .frame(width: 100, height: 25)
+                            
+                            Text("\(pokemonData.typeTwo)" .uppercased())
+                                .font(.caption)
+                                .fontWeight(.bold)
+                                .foregroundColor(.white)
+                                .padding(.horizontal, 10)
+                                .padding(.vertical, 8)
+                                .overlay(
+                                    RoundedRectangle(cornerRadius: 12)
+                                        .fill(Color.white.opacity(0.25))
+                                )
+                                .frame(width: 100, height: 25)
+                        }
                     } else {
                         Text("\(pokemonData.type)" .uppercased())
                             .font(.caption)
