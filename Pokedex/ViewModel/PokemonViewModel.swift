@@ -10,7 +10,7 @@ import SwiftUI
 class PokemonViewModel: ObservableObject {
     @Published var pokemon = [PokemonData]()
     
-    let apiURL = "https://firebasestorage.googleapis.com/v0/b/pokedex-83c1e.appspot.com/o/JSON14.json?alt=media&token=61d220c5-ccea-462f-9aab-d83a3f7d6997"
+    let apiURL = "https://firebasestorage.googleapis.com/v0/b/pokedex-83c1e.appspot.com/o/JSON18.json?alt=media&token=72f5c3e6-5f21-460f-8862-287a9cca517d"
     
     init() {
         fetchPokemonData()
