@@ -342,7 +342,7 @@
     "height": 4,
     "id": 29,
     "imageUrl": "https://firebasestorage.googleapis.com/v0/b/pokedex-83c1e.appspot.com/o/Pokedex%20Images%2F29.png?alt=media&token=e2f21ba5-f386-41ec-928a-20ee5db74cbe",
-    "name": "nidoran-f",
+    "name": "nidoran♀️",
     "type": "poison",
     "typeTwo": "poison",
     "weight": 70
@@ -378,7 +378,7 @@
     "height": 5,
     "id": 32,
     "imageUrl": "https://firebasestorage.googleapis.com/v0/b/pokedex-83c1e.appspot.com/o/Pokedex%20Images%2F32.png?alt=media&token=42220f64-2f5b-4de0-9676-876557189df5",
-    "name": "nidoran-m",
+    "name": "nidoran♂️",
     "type": "poison",
     "typeTwo": "poison",
     "weight": 90
@@ -1628,7 +1628,7 @@
     "imageUrl": "https://firebasestorage.googleapis.com/v0/b/pokedex-83c1e.appspot.com/o/Pokedex%20Images%2F136.png?alt=media&token=1145dfba-9920-4eee-b7ba-357bf21173a5",
     "name": "flareon",
     "type": "fire",
-    "typeTwo": "frie",
+    "typeTwo": "fire",
     "weight": 250
   },
   {
